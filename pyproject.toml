@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-lib-test-lib"
-version = "0.0.1"
+version = "0.0.3"
 description = "A test library to test the [python-lib](https://github.com/msleigh/python-lib) Cookiecutter template."
 readme = "README.md"
 authors = [
