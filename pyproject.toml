@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "python-lib-test-lib"
+version = "0.0.1"
+description = "A test library to test the [python-lib](https://github.com/msleigh/python-lib) Cookiecutter template."
+readme = "README.md"
+authors = [
+  "msleigh <msleigh@users.noreply.github.com>",
+]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+mkdocs-material = "^9.5.7"
+pre-commit = "^3.3.1"
+pytest = "^8.0.0"
+ruff = "^0.0.265"
+towncrier = "^23.11.0"
+
+[tool.poetry.scripts]
+
+[tool.towncrier]
+directory = "changelog.d"
+filename = "CHANGELOG.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/msleigh/python-lib-test-lib"
+Changelog = "https://github.com/msleigh/python-lib-test-lib/releases"
+Issues = "https://github.com/msleigh/python-lib-test-lib/issues"
+CI = "https://github.com/msleigh/python-lib-test-lib/actions"
