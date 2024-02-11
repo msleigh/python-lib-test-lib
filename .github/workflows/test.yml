@@ -26,4 +26,4 @@ jobs:
             - name: Run tests
               run: |
                   pytest
-                  make -C docs html
+                  mkdocs build -f docs/mkdocs.yml -s
