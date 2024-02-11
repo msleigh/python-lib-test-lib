@@ -6,7 +6,8 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/msleigh/python-lib-test-lib/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
-A test library to test the [python-lib](https://github.com/msleigh/python-lib) Cookiecutter template.
+A test library to test the [python-lib](https://github.com/msleigh/python-lib)
+Cookiecutter template.
 
 ---
 

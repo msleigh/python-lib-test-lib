@@ -1,6 +1,7 @@
 # Welcome to Python Lib Test Lib
 
-A test library to test the [python-lib](https://github.com/msleigh/python-lib) Cookiecutter template.
+A test library to test the [python-lib](https://github.com/msleigh/python-lib)
+Cookiecutter template.
 
 [![PyPI](https://img.shields.io/pypi/v/python-lib-test-lib.svg)](https://pypi.org/project/python-lib-test-lib/)
 [![Changelog](https://img.shields.io/github/v/release/msleigh/python-lib-test-lib?include_prereleases&label=changelog)](https://github.com/msleigh/python-lib-test-lib/releases)
